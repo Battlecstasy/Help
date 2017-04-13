@@ -1,14 +1,14 @@
-local minu
+local menu
 require("menu")
 
 function love.load()
-minu = Menu:new()
+menu = Menu:new()
 end
 
 function love.update(dt)
-minu:update(dt)
+menu:update(dt)
 end
 
 function love.draw()
-minu:draw()
+menu:draw()
 end
